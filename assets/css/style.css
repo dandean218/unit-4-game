@@ -1,32 +1,58 @@
-.header{
-    background-image: url("../assets/images/logo.png");
+.jumbotron{
+    padding-bottom: 10px;
+    padding-top:10px;
 }
 
-.btn-primary {
-    background-color: white;
+.h1,h1{
+    text-align:center;
 }
 
-#gem-1{
+.logo{
+    width:300px;
+    display:block;
+    margin:auto;
+}
+
+.btn {
+    background-color:white;
+    border-color:red;
+}
+
+.card{
+    margin-bottom:20px;
+    border: 1px solid red;
+}
+
+.card-body{
+    margin:auto;
+}
+
+.card-header{
+    background-color:gold;
+}
+
+.result-text{
+    margin:auto;
+    text-align:center;
+}
+
+.gem{
     width: 200px;
+    margin-left:20px;
     margin-right: 15px;
-    margin-bottom: 15px;
+    border-radius: 5px;
 }
 
-#gem-2{
-    width: 200px;
-    margin-right: 15px;
-    margin-bottom: 15px;
+#button-clear{
+    margin:auto; 
+    background-color:red;
 }
 
-#gem-3{
-    width: 200px;
-    margin-right: 15px;
-    margin-bottom: 15px;
+.gem:hover{
+    background-color:red;
 }
 
-#gem-4{
-    width: 200px;
-    margin-right: 15px;
-    margin-bottom: 15px;
-}
 
+.gem:active{
+    background-color:gold;
+}
